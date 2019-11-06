@@ -1,0 +1,17 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+# Menu
+links:
+  - title: "Home"
+    url: /
+  - title: "About Us"
+    url: /about-us/
+  - title: "Our Products"
+    url: /our-product/
+  - title: "Distribution Application"
+    url: "/#"
+  - title: "Catalogue"
+    url: "/#"
+  - title: "Contact Us"
+    url: /contact-us/

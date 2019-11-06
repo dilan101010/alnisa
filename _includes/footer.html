@@ -1,0 +1,205 @@
+<footer class="main">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 col-sm-6">
+				<div class="row">
+					<div class="footer-main-left">
+
+						<h1>CONTACT US</h1>
+
+						<div class="col-md-8 col-sm-8">
+							<div class="footerin-left">
+
+								<div class="footer-adresss clearfix">
+									<div class="iconleft pull-left"><span class="fa fa-map-marker"></span></div>
+									<div class="adressright pull-right">
+										<p>{{ site.pin_address }}</p>
+									</div>
+								</div>
+
+								<div class="footer-adresss clearfix">
+									<div class="iconleft pull-left"><span class="fa fa-phone"></span></div>
+									<div class="adressright pull-right">
+										<p>{{ site.mobile }}</p>
+									</div>
+								</div>
+
+								<div class="footer-adresss clearfix">
+									<div class="iconleft pull-left"><span class="fa fa-envelope-o"></span></div>
+									<div class="adressright pull-right">
+										<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-4">
+							<div class="footerin-right">
+								<ul>
+									<li><a class="fa fa-facebook" href="{{ site.facebook }}"></a></li>
+									<li><a class="fa fa-twitter" href="{{ site.twitter }}"></a></li>
+									<li><a class="fa fa-google-plus" href="{{ site.google_plus }}"></a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-sm-6">
+				<div class="footer-main-right">
+					<div class="pdf-left">
+						<h1>{{ site.catalog_title }}</h1>
+						<p>{{ site.catalog_desc }}</p>
+						<a target="_blank" href="pdf.php">download pdf</a>
+					</div>
+					<div class="pdf-right">
+						<img class="img-responsive" src="{{ site.catalog_image | prepend: site.baseurl | prepend: site.url }}" alt="pdf">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<footer class="end">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 col-sm-8">
+				<div class="footer-end-left">
+					<p> {{ site.copyright }}</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-sm-4">
+				<div class="footer-end-right">
+					<!-- <span>Design & Developed By: <a href="http://xperts.net.pk">Xperts</a></span> -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+<script type="text/javascript" src="{{ "/js/jquery.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+
+<script type="text/javascript" src="{{ "/js/placeholdem.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script type="text/javascript" src="{{ "/js/search.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+
+<script type="text/javascript" src="{{ "/js/input.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+
+<script type="text/javascript">
+	Placeholdem(document.querySelectorAll('[placeholder]'));
+</script>
+
+<script type="text/javascript" src="{{ "/js/slick.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.slidee1').slick({
+			infinite: true,
+			autoplay: true,
+			aautoplaySpeed: 1000,
+			infinite: true,
+			speed: 1500,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+			]
+		});
+
+
+		$('.slidee2').slick({
+			autoplay: true,
+			aautoplaySpeed: 1000,
+			infinite: true,
+			speed: 1500,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+			]
+		});
+
+	});
+</script>
+
+
+<style type="text/css">
+	div.cloudzoom-zoom,div.cloudzoom-zoom-inside{display: block !important;}
+	div.cloudzoom-blank,div.cloudzoom-blank div.cloudzoom-lens{display: none !important;}
+</style>

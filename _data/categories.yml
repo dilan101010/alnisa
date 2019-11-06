@@ -1,0 +1,19 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+# Catgories Menu sidebar
+category:
+  - title: "LIPOSUCTION CANNULA"
+    url: /
+    subcategory:
+      - title: "BASKET LIPO CANNULA"
+        url: /about-us/
+      - title: "SYRINGE LOCK LIPOSUCTION"
+        url: /syringe-lock-liposuction/
+      - title: "LIPOSUCTION CANNULAS ACCESSORIES"
+        url: /liposuction-cannulas-accessories/
+  - title: "PLASTIC SURGERY INSTRUMENTS"
+    url: /plastic-surgery-instruments/
