@@ -7,13 +7,27 @@
 # Catgories Menu sidebar
 category:
   - title: "LIPOSUCTION CANNULA"
-    url: /
+    url: /liposuction-cannula/
+    image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
     subcategory:
       - title: "BASKET LIPO CANNULA"
-        url: /about-us/
+        url: /basket-lipo-cannula/
       - title: "SYRINGE LOCK LIPOSUCTION"
         url: /syringe-lock-liposuction/
       - title: "LIPOSUCTION CANNULAS ACCESSORIES"
         url: /liposuction-cannulas-accessories/
   - title: "PLASTIC SURGERY INSTRUMENTS"
     url: /plastic-surgery-instruments/
+    image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
+  - title: "PLASTIC SURGERY INSTRUMENTS"
+    url: /plastic-surgery-instruments/
+    image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
+  - title: "PLASTIC SURGERY INSTRUMENTS"
+    url: /plastic-surgery-instruments/
+    image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
+  - title: "PLASTIC SURGERY INSTRUMENTS"
+    url: /plastic-surgery-instruments/
+    image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
+  - title: "PLASTIC SURGERY INSTRUMENTS"
+    url: /plastic-surgery-instruments/
+    image: "/images/liposuction-cannula_097AEA_cthumb.jpg"

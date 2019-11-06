@@ -1,0 +1,22 @@
+<article class="main">
+    <div class="container">
+        <div class="row">
+            <div class="slidee2">
+            	{% for link in site.data.categories.category %}
+                <div class="col-md-3 col-sm-6">
+                    <div class="common-cats-wrapper text-center">
+                        <div class="cats-img">
+                            <a title="LIPOSUCTION CANNULA" href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
+                                <img class="img-responsive" src="{{ link.image | prepend: site.baseurl | prepend: site.url }}" alt="cats">
+                            </a></div>
+                        <div class="cats-name">
+                            <p>{{ link.title }}</p>
+                            <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">view all</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</article>

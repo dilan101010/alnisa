@@ -1,0 +1,61 @@
+<div class="banner_cont">
+    <div id="carousel-example-generic" class="carousel slide clearfix wow zoomIn" style="-webkit-animation-duration: 1s; animation-delay: 0s;" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="">
+                    <img src="{{ "/images/slider-1.jpg" | prepend: site.baseurl | prepend: site.url }}" class="img-responsive center-block" alt="Banner01-1" title="Banner01-1">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="">
+                    <img src="{{ "/images/slider-2.jpg" | prepend: site.baseurl | prepend: site.url }}" class="img-responsive center-block" alt="Banner02-2" title="Banner02-2">
+                </a>
+            </div>
+            <div class="item ">
+                <a href="">
+                    <img src="{{ "/images/slider-3.jpg" | prepend: site.baseurl | prepend: site.url }}" class="img-responsive center-block" alt="Banner03-3" title="Banner03-3">
+                </a>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+{% assign home = site.data.home %}
+<div class="company-deteiled">
+    <div class="container">
+        <div class="row">
+            <div class="heading-wrapper text-center">
+                <h1>{{ home.about.heading }}</h1>
+            </div>
+            <div class="col-md-8 col-sm-8">
+                <div class="long-deteil">
+                    <strong>{{ home.about.subheading }}</strong>
+                    <p> {{ home.about.content }} </p>
+                    <a href="{{ "/about-us/" | prepend: site.baseurl | prepend: site.url }}">read more</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="short-deteil">
+                    <strong>{{ home.mission.heading }}</strong>
+                    <p>{{ home.mission.content }}</p>
+                    <a href="#">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

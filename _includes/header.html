@@ -1,10 +1,8 @@
 <header class="top">
     <div class="container">
         <div class="row">
-
             <div class="col-md-3 col-sm-4">
                 <div class="top-left-header clearfix">
-
                     <div class="in-left pull-left">
                         <span class="fa fa-phone"></span>
                     </div>
@@ -12,43 +10,30 @@
                         <p>{{ site.mobile }}</p>
                         <p>{{ site.mobile1 }}</p>
                     </div>
-
                 </div>
             </div>
-
             <div class="col-md-6 col-sm-4">
                 <div class="top-middle-header">
-
                     <a href="{{ site.url }}{{ site.baseurl }}/"><img class="img-responsive" src="{{ site.logo | prepend: site.baseurl | prepend: site.url }}" alt="logo"></a>
-
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-4">
                 <div class="top-right-header">
-
                     <div class="in-left pull-left">
                         <span class="fa fa-map-marker"></span>
                     </div>
-
                     <div class="in-right pull-right">
                         <p>{{ site.pin_address }}</p>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 </header>
-
-
 <header class="main">
     <div class="container">
         <div class="row">
-
             <nav class="main">
-
                 <div class="navbar navbar-default">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav-bar1">
@@ -56,29 +41,35 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-
                     </div>
-
                     <div class="collapse navbar-collapse main-nav-bar1 removepadd">
-
                         <ul class="menu nav navbar-nav" id="navigation-bar">
-
                             {% for link in site.data.navigation.links %}
                             {% if link.url contains 'http' %}
                             {% assign domain = '' %}
                             {% else %}
                             {% assign domain = site.url %}
                             {% endif %}
-                            <li><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+                            <li><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
                             {% endfor %}
-
+                            <li>
+                                <div class="form-data">
+                                    <a href="#search" class="main-input-search">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </div>
+                                <!-- Search Form -->
+                                <div id="search">
+                                    <span class="close">X</span>
+                                    <form method="post" action="#" role="search" class="form-inline newsletter">
+                                        <input type="search" name="tsearch" placeholder="Search..." />
+                                    </form>
+                                </div>
+                            </li>
                         </ul>
-
                     </div>
                 </div>
-
             </nav>
-
         </div>
     </div>
 </header>
