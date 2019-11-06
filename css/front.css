@@ -66,13 +66,13 @@ header.main nav.main ul li .form-data a.main-input-search i{display:block; font-
 .company-deteiled .long-deteil strong{display:block; color:#0166ff; font-family: 'Oswald', sans-serif; font-size:23px; font-weight:normal; padding-bottom:10px;}
 .company-deteiled .long-deteil p{margin:0px; padding-bottom:15px; color:#111; font-size:15px;}
 .company-deteiled .long-deteil a{display:inline-block; text-decoration:none; background:#0166ff; color:#fff; padding:10px 20px; border-radius:5px; text-transform:capitalize; margin-top:10px;}
-.company-deteiled .long-deteil a:hover{background:#d5565f;}
+.company-deteiled .long-deteil a:hover{background:#1c1e36;}
 
 .company-deteiled .short-deteil{}
 .company-deteiled .short-deteil strong{display:block; color:#0166ff; font-family: 'Oswald', sans-serif; font-size:23px; font-weight:normal; padding-bottom:10px;}
 .company-deteiled .short-deteil p{margin:0px; padding-bottom:15px; color:#111; font-size:15px;}
 .company-deteiled .short-deteil a{display:inline-block; text-decoration:none; background:#0166ff; color:#fff; padding:10px 20px; border-radius:5px; text-transform:capitalize; margin-top:10px; -webkit-transition:all 0.4s ease; -moz-transition:all 0.4s ease; -o-transition:all 0.4s ease; transition:all 0.4s ease;}
-.company-deteiled .short-deteil a:hover{background:#d5565f;}
+.company-deteiled .short-deteil a:hover{background:#1c1e36;}
 
 
 article.main{background:#f3f3f3; padding-bottom:40px;}
@@ -154,7 +154,7 @@ footer.main .footer-main-right .pdf-left{}
 footer.main .footer-main-right .pdf-left h1{font-family: 'Oswald', sans-serif; font-size:33px; margin:0px; color:#434445; font-weight:400; padding:40px 0px 20px; text-transform:uppercase;}
 footer.main .footer-main-right .pdf-left p{margin:0px; color:#111; font-size:16px; padding-right:286px;}
 footer.main .footer-main-right .pdf-left a{display:inline-block; text-decoration:none; font-family: 'Oswald', sans-serif; font-weight:400; text-transform:uppercase; background:#0166ff; color:#fff; padding:10px 20px; border-radius:5px; font-size:18px; text-shadow:0px 0px 1px #222; margin-top:10px; -webkit-transition:all 0.4s ease; -moz-transition:all 0.4s ease; -o-transition:all 0.4s ease; transition:all 0.4s ease;}
-footer.main .footer-main-right .pdf-left a:hover{background:#d5565f;}
+footer.main .footer-main-right .pdf-left a:hover{background:#1c1e36;}
 
 footer.main .footer-main-right .pdf-right{position:absolute; top:65px; right:20px;}
 footer.main .footer-main-right .pdf-right img{display:block;}
