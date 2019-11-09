@@ -34,3 +34,15 @@ catalog_image: "/images/pdfbook.jpg"
 markdown: kramdown
 include: ["_pages"]
 exclude: ["README.md"]
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+    layout: product
+
+# plugins:
+#   - piwigo_gallery
+
+piwigo_gallery:
+    baseurl: http://photos.gallery.com/piwigo/

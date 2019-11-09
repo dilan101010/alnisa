@@ -1,0 +1,17 @@
+<div class="col-lg-9 col-md-9 col-sm-8 mtb-20 inflex">
+    <div class="prdarea">
+        <div class="prdarea1">
+            <h4><a href="{{ "/our-product/" | prepend: site.baseurl | prepend: site.url }}">products</a> / </h4>
+        </div>
+        <div class="row">
+            {% for link in site.data.categories.category %}
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-10 clearfix">
+                <div class="prodpgcat">
+                    <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}"> {{ link.title }} </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
