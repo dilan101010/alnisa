@@ -216,7 +216,7 @@ a:hover { text-decoration: none; }
 .cd-accordion-menu label:hover, .cd-accordion-menu a:hover { padding-left:15px; color:white; background:#ccdefc;}
 /* second level*/
 .cd-accordion-menu ul label,.cd-accordion-menu ul a {padding-left: 20px; background:#2d2d2d; color:#fff; font:400 13px 'Raleway', sans-serif; border-bottom:1px #232323 solid; transition:all 0.3s;}
-.cd-accordion-menu ul label:hover,.cd-accordion-menu ul a:hover { padding-left:25px; color:red;}
+.cd-accordion-menu ul label:hover,.cd-accordion-menu ul a:hover { padding-left:25px; color:#0166ff;}
 /* third level*/
 .cd-accordion-menu ul ul label,.cd-accordion-menu ul ul a {padding-left: 30px;transition:all 0.3s;}
 .cd-accordion-menu ul ul label:hover,.cd-accordion-menu ul ul a:hover {padding-left: 35px;}

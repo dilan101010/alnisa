@@ -6,10 +6,16 @@
                 {% for link in site.data.categories.category %}
                 <li class="has-children">
                     <input type="checkbox" name="{{ link.title }}" id="{{ link.title }}">
-                    <label for="{{ link.title }}">{{ link.title }}<span class="pull-right"><i class="fa fa-angle-double-down"></i></span></label>
+                    <label for="{{ link.title }}">{{ link.title }}
+                        {% if link.subcategory != empty %}
+                        <span class="pull-right"><i class="fa fa-angle-double-right"></i></span>
+                        {% else %}
+                        <span class="pull-right"><i class="fa fa-angle-double-down"></i></span>
+                        {% endif%}
+                    </label>
                     <ul>
-                        {% for entry in item.subcategory %}
-                        <li><a href="{{ entry.url | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-angle-right"></i>{{ entry.title }}</a></li>
+                        {% for entry in link.subcategory %}
+                        <li><a href="{{ entry.url | prepend: "/product" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-angle-right"></i>{{ entry.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>

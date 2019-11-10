@@ -38,8 +38,14 @@ exclude: ["README.md"]
 collections:
   product:
     output: true
-    permalink: /our-product/:path/
+    permalink: /product/:path/
     layout: product
+
+defaults:
+  - scope:
+      type: product
+    values:
+      layout: product
 
 plugins:
   - github-pages
