@@ -1,9 +1,6 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
 # Catgories Menu sidebar
 category:
   - title: "LIPOSUCTION CANNULA"
@@ -11,11 +8,11 @@ category:
     image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
     subcategory:
       - title: "BASKET LIPO CANNULA"
-        url: /basket-lipo-cannula/
+        url: "http://alnisainstruments.com/gallery/index.php?/category/1"
       - title: "SYRINGE LOCK LIPOSUCTION"
-        url: /syringe-lock-liposuction/
+        url: "#"
       - title: "LIPOSUCTION CANNULAS ACCESSORIES"
-        url: /liposuction-cannulas-accessories/
+        url: "#"
   - title: "PLASTIC SURGERY INSTRUMENTS"
     url: /plastic-surgery-instruments/
     image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
