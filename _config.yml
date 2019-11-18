@@ -7,7 +7,7 @@
 
 # Site settings
 title: Alnisa Surgical Instruments
-email: your-email@domain.com
+email: "alnisa786@naver.com"
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -15,10 +15,24 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/alnisa" # the subpath of your site, e.g. /blog
 url: "https://dilan101010.github.io" # the base hostname & protocol for your site
 logo: "/images/logo.JPG"
-pin_address: Lorem lkojdsf jdshf sdhfj
-mobile:  "099XXXXXXXX"
-mobile1: "087787XXXXX"
+pin_address: "#401 60 Hwangmul-ro Dongdaemun-gu, Seoul Korea"
+mobile:  "82-2-2047-0465"
+mobile1: "+82-10-2084-0786"
 fax: "XXXXXXXXXX"
+
+head_office:
+  title: "Alnisa Enterprises"
+  address: "Q.K.W Pasrur Sialkot Punjab Pakistan"
+  tel: "92-52-6632383"
+  hp: "+92-321-486-4191"
+  email: "alnisaenterprises@gmail.com"
+
+branch_office:
+  title: "Alnisa Surgical Instruments Co,. Ltd"
+  address: "#401 60 Hwangmul-ro Dongdaemun-gu, Seoul Korea"
+  tel: "82-2-2047-0465"
+  hp: "+82-10-2084-0786"
+  email: "alnisa786@naver.com"
 
 facebook: "https://www.facebook.com"
 twitter: "https://www.twitter.com"
@@ -47,9 +61,5 @@ defaults:
     values:
       layout: product
 
-plugins:
-  - github-pages
-  # - piwigo_gallery
-
 piwigo_gallery:
-    baseurl: http://photos.gallery.com/piwigo/
+    baseurl: http://alnisainstruments.com/gallery/

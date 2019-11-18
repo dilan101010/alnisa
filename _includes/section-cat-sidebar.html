@@ -15,7 +15,7 @@
                     </label>
                     <ul>
                         {% for entry in link.subcategory %}
-                        <li><a href="{{ entry.url | prepend: "/product" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-angle-right"></i>{{ entry.title }}</a></li>
+                        <li><a href="{{ entry.url }}" target="_blank"><i class="fa fa-angle-right"></i>{{ entry.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>

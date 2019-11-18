@@ -6,21 +6,24 @@ image: /images/contact-us_E3E1EF_pbanner.jpg
 ---
 
 <div class="contactbx">
-	<div class="col-lg-5 col-md-5">
-		<h3><span class="fa fa-long-arrow-right"> </span>{{ site.title }}</h3>
-		<p><span class="fa fa-map-marker"> </span>{{ site.pin_address }}</p>
-		<p><span class="fa fa-phone"> </span> Tel: {{ site.mobile }}</p>
-		<p><span class="fa fa-fax"> </span> Fax :{{ site.fax }}</p>
-		<p><span class="fa fa-mobile"> </span> Mob: {{ site.mobile1 }}<br />(Whatsapp, Viber, We chat, IMO, Line)</p>
-		<p><span class="fa fa-envelope"> </span> Email: <a href="{{ site.email }}">{{ site.email }}</a></p>
-		<p><span class="fa fa-envelope"> </span> Email: <a href="{{ site.email }}">{{ site.email }}</a></p>
-		<p><span class="fa fa-globe"> </span> Web: <a href="{{ site.url }}">{{ site.url }}</a></p>
+	<div class="col-lg-6 col-md-6">
+		<h5> Head Office </h5>
+		{% assign info = site.head_office %}
+		<h3><span class="fa fa-long-arrow-right"> </span>{{ info.title }}</h3>
+		<p><span class="fa fa-map-marker"> </span>{{ info.address }}</p>
+		<p><span class="fa fa-phone"> </span> Tel: {{ info.tel }}</p>
+		<p><span class="fa fa-fax"> </span> Fax :{{ info.hp }}</p>
+		<p><span class="fa fa-envelope"> </span> Email: <a href="{{ info.email }}">{{ info.email }}</a></p>
 	</div>
 </div>
-
-<div class="col-lg-7 col-md-7">
-	<h3>Get Directions</h3>
-	<div class="contactbxm">
-		<p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53842.37709889582!2d74.5043784716829!3d32.49545805064383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391eea5674db6cfd%3A0xa8d03983946d4744!2sSialkot%2C+Pakistan!5e0!3m2!1sen!2s!4v1484304090874" width="100%" height="250" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<div class="contactbx">
+	<div class="col-lg-6 col-md-6">
+		<h5> Branch Office </h5>
+		{% assign infob = site.branch_office %}
+		<h3><span class="fa fa-long-arrow-right"> </span>{{ infob.title }}</h3>
+		<p><span class="fa fa-map-marker"> </span>{{ infob.address }}</p>
+		<p><span class="fa fa-phone"> </span> Tel: {{ infob.tel }}</p>
+		<p><span class="fa fa-fax"> </span> Fax :{{ infob.hp }}</p>
+		<p><span class="fa fa-envelope"> </span> Email: <a href="{{ infob.email }}">{{ infob.email }}</a></p>
 	</div>
 </div>
