@@ -60,6 +60,3 @@ defaults:
       type: product
     values:
       layout: product
-
-piwigo_gallery:
-    baseurl: http://alnisainstruments.com/gallery/
