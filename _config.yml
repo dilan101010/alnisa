@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alnisainstruments.com" # the base hostname & protocol for your site
 logo: "/images/logo.JPG"
 pin_address: "#401 60 Hwangmul-ro Dongdaemun-gu, Seoul Korea"
-mobile:  "82-2-2047-0465"
+mobile:  "+82-2-2047-0465"
 mobile1: "+82-10-2084-0786"
 fax: "XXXXXXXXXX"
 
