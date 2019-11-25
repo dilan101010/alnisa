@@ -3,28 +3,18 @@
 #
 # Catgories Menu sidebar
 category:
-  - title: "LIPOSUCTION CANNULA"
-    url: /liposuction-cannula/
+  - title: "SURGICAL INSTRUMENTS"
+    url: /surgical-instruments/
     image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
-    subcategory:
-      - title: "BASKET LIPO CANNULA"
-        url: "http://alnisainstruments.com/gallery/index.php?/category/1"
-      - title: "SYRINGE LOCK LIPOSUCTION"
-        url: "#"
-      - title: "LIPOSUCTION CANNULAS ACCESSORIES"
-        url: "#"
-  - title: "PLASTIC SURGERY INSTRUMENTS"
-    url: /plastic-surgery-instruments/
+  - title: "PLASTIC SURGERY"
+    url: /plastic-surgery/
     image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
-  - title: "PLASTIC SURGERY INSTRUMENTS"
-    url: /plastic-surgery-instruments/
+  - title: "ANIMAL INSTRUMENTS"
+    url: /animal-instruments/
     image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
-  - title: "PLASTIC SURGERY INSTRUMENTS"
-    url: /plastic-surgery-instruments/
+  - title: "BEAUTY INSTRUMENTS"
+    url: /beauty-instruments/
     image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
-  - title: "PLASTIC SURGERY INSTRUMENTS"
-    url: /plastic-surgery-instruments/
-    image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
-  - title: "PLASTIC SURGERY INSTRUMENTS"
-    url: /plastic-surgery-instruments/
+  - title: "EYE SURGERY"
+    url: /eye-surgery/
     image: "/images/liposuction-cannula_097AEA_cthumb.jpg"
