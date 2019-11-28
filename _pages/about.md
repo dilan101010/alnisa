@@ -5,6 +5,9 @@ permalink: /about-us/
 image: /images/about-us_55D418_pbanner.jpg
 ---
 
+We provide one of the best-suplied instruments in United States of America, European Union, and Latin America. Our Company Al-Nisa Instruments maintains is a complete inventory of all the instruments in the line, by managing its stock electrOrcially, this permits the shipment of all order witnn days of receipt, while the emergency orders are shipped on the same day of the receipt. Execution of order within 2 weeks if not Ex stock. Our customer service representatives are ready to work with our customers on expediting rush morcMIs.I', product demonstrations, and consultation. As customer satisfaction is our top priority, we aim to make your experience hassle-free and treat you as our only one.
+
+
 ### Manufacturing Process
 Most of the surgical instruments go through 28 or more steps before they are hand-inspected, packaged and shipped to our customers. Al-Nisa international has several fully mechanized units capable of producing large volume of instruments. Following is brief introduction to some of the major steps in manufacturing instruments .
 
